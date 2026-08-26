@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.xadacka.vaporwave-background",
+  "name": "Vaporwave Background",
+  "version": "1.0.0",
+  "author": "xadacka",
+  "license": "MIT",
+  "description": "Desktop background renderer with a subtle animated neon glow, crossing scanlines, and an optional Matrix-style digital rain overlay. Forked from the built-in background service.",
+  "kinds": [
+    "service"
+  ],
+  "entryPoints": {
+    "service": "Background.qml"
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.background"
+  }
+}
